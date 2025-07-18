@@ -397,6 +397,31 @@ footer {
   border-radius: var(--radius) var(--radius) 0 0;
 }
 
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  background: var(--primary);
+  border-radius: 10px;
+  border: 2px solid var(--accent);
+  z-index: 1001;
+  box-shadow: 0 2px 8px rgba(43,45,66,0.10);
+}
+
+.hamburger span {
+  display: block;
+  width: 28px;
+  height: 4px;
+  background: var(--accent);
+  margin: 5px 0;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
 /* Responsive Design */
 @media (max-width: 1200px) {
   .hero {
