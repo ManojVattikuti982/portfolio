@@ -76,11 +76,11 @@ nav a:hover, .download-btn:hover {
   margin-right: 1rem;
   text-decoration: none;
   display: inline-block;
+  margin-bottom: 0.7rem;
 }
 
-.btn:hover, .download-btn:hover {
-  background: var(--primary);
-  color: var(--light);
+.btn:last-child, .download-btn:last-child {
+  margin-bottom: 0;
 }
 
 .hero {
